@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="GBK">
+<title>Insert title here</title>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding: 20px;
+}
+.STYLE1 {
+	font-size: 12px;
+	color: #FFFFFF;
+}
+.STYLE3 {
+	font-size: 12px;
+	color: #033d61;
+}
+-->
+</style>
+<style type="text/css">
+.menu_title SPAN {
+	FONT-WEIGHT: bold; LEFT: 3px; COLOR: #ffffff; POSITION: relative; TOP: 2px 
+}
+.menu_title2 SPAN {
+	FONT-WEIGHT: bold; LEFT: 3px; COLOR: #FFCC00; POSITION: relative; TOP: 2px
+}
+
+</style>
+</head>
+<body>
+
+	<form action="CourseServlet"  method="post">
+	<input type="hidden" name="op"value="add"/>
+			课名：<input type="text" name="name"/><br>
+			学分：<input type="text" name="credit"/><br>
+			<input type="submit" value="添加"/><br>
+	
+	</form>
+</body>
+</html>
